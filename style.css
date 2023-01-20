@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(most.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box1{
+    width: 100%;
+    max-width: 80000px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(164, 239, 186);
+    padding: 10px 10px 10px;
+    text-align: left;
+
+}
+.form-box2{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(154, 243, 159);
+    padding: 30px 60px 70px;
+    text-align: center;
+
+}
+
+
+
+.input-field{
+    background: rgb(117, 180, 114);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px;
+}
+
+form p{
+    text-align: left;
+    font-size: 13px;
+
+}
+form p a{
+    text-decoration: none;
+    color: rgb(51, 153, 78);
+}
+.buttons{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    flex-basis: 48%;
+    background: rgb(71, 252, 125);
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    
+}
+.buttons2 button{
+    flex-basis: 48%;
+    background: rgb(72, 242, 115);
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    
+}
+.input-group{
+  height: 210px;  
+}
+
+.tabelka {
+    border-collapse: collapse;
+  }

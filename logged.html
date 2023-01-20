@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    table, td, th {
+      border: 1px solid;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    </style>
+    <title>Transaction History</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <p id="username"></p>
+            <div class="buttons">
+                <button id="button" onclick="location.href='main.html'">Logout</button>
+            </div>
+        </div>
+        <div id="transactions-container">
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Balance</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>2022-11-12</td>
+                    <td>Wydatki - zakupy</td>
+                    <td>-231.56</td>
+                    <td>4337.25</td>
+                    <td>Biedronka 13</td>
+                </tr>
+                <tr>
+                    <td>2022-11-12</td>
+                    <td>Wydatki - inne</td>
+                    <td>-31.56</td>
+                    <td>4572.18</td>
+                    <td>PayU Spółka Akcyjna</td>
+                </tr>
+                <tr>
+                    <td>2022-11-12</td>
+                    <td>Wpływy - wynagrodzenie</td>
+                    <td>2137.69</td>
+                    <td>2420.47</td>
+                    <td>Wynagrodzenie z tytułu Umowy o Pracę</td>
+                </tr>
+                <!-- pozostale transakcje -->
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
